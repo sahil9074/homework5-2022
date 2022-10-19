@@ -56,7 +56,6 @@ a:visited{ /* makes links stay same color*/
     header{
         display: flex;
         flex-direction: row;
-        /* align-items: center; */
         justify-content: space-between;
     }
     .nav_links{
@@ -74,7 +73,6 @@ a:visited{ /* makes links stay same color*/
     body > header{ /* selects headers after each body*/
         position: sticky;
         top: 0;
-        align-self: flex-start;
     }
 }
 @media (prefers-reduced-motion){ /* sets styles for those who prefer reduced motion*/
@@ -89,12 +87,6 @@ a:visited{ /* makes links stay same color*/
         background: #f1f1f1;
         background-image: none;
     }
-    /* nav{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-        justify-content: space-around;
-    } */
     nav{/* makes nav items 100% width*/
         width: 100%;
     }
